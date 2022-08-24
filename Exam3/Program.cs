@@ -1,0 +1,19 @@
+﻿Console.Write("Введи цифру, обозначающую день недели: ");
+int day = Convert.ToInt32(Console.ReadLine());
+
+void Check (int day)
+{
+    if ( day == 6 || day ==7)
+    {
+        Console.WriteLine("Это выходной");
+    }
+    else if (day < 1 || day > 7)
+    {
+        Console.WriteLine("Введите числа от одгого 1 до 7");
+    }
+    else
+    {
+        Console.WriteLine("Рабочий день");
+    } 
+}
+Check(day);
