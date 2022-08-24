@@ -11,7 +11,7 @@ void Check (int day)
     }
     else if (day < 1 || day > 7)
     {
-        Console.WriteLine("Введите число от одгого 1 до 7");
+        Console.WriteLine("В неделе 7 дней");
     }
     else
     {
