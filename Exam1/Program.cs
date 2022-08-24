@@ -2,5 +2,4 @@
 
 Console.WriteLine("Введите трехзначное число:");
 string x = Convert.ToString(Console.ReadLine());
-
 Console.WriteLine(x[1]);
